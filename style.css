@@ -441,6 +441,7 @@ span{
 }
 .project-box{
     background-color: var(--main-color);
+    color: black;
     height: 300px;
     border-radius: 3rem;
     border: 5px solid transparent;
@@ -448,6 +449,7 @@ span{
     transition: 0.4s ease-in-out;
     overflow-y: auto;
     scrollbar-width: none;
+    
 }
 .project-box:hover{
     background: white;
@@ -468,7 +470,6 @@ span{
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
-    color: black;
 }
 .project-info p{
     font-size: 1.6rem;
@@ -476,7 +477,6 @@ span{
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
-    color: black;
 }
 
 /*.contact{
